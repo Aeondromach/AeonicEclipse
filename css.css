@@ -45,6 +45,10 @@ title {
     display: none;
 }
 
+body {
+    font-size: 16px;
+}
+
 header {
     width: 100vw;
     height: 65px;
@@ -65,7 +69,7 @@ header {
 }
 
 #title {
-    font-size: 24px;
+    font-size: 1.5rem;
     color: aliceblue;
     line-height: 27px;
     text-align: center;
@@ -82,7 +86,7 @@ header {
 }
 
 .headText {
-    font-size: 18px;
+    font-size: 1.1rem;
     text-decoration: none;
     position: relative;
     color: aliceblue;
@@ -105,8 +109,6 @@ main {
 }
 
 #contact {
-    height: 40px;
-    width: 40px;
+    font-size: 2rem;
     color: aliceblue;
-    font-size: 18px;
 }
