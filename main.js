@@ -1,3 +1,5 @@
+"use strict";
+
 $(document).ready(function() {
     navbuttons(".about","/about");
     navbuttons('.project',"/project");
@@ -6,7 +8,7 @@ $(document).ready(function() {
     navbuttons('.resume',"/resume");
     navbuttons('.contact',"/contact");
     navblankbuttons('.git','https://github.com/aeondromach');
-    navblankbuttons('.linked','/error')
+    navblankbuttons('.linked','www.linkedin.com/in/aeondromach')
 });
 
 document.addEventListener("DOMContentLoaded", function() {
