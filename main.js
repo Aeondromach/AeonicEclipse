@@ -1,4 +1,6 @@
 $(document).ready(function() {
+    document.getElementById("header").innerHTML = fetch("header.html").then(res => res.text());
+    document.getElementById("footer").innerHTML = fetch("footer.html").then(res => res.text());
     navbuttons("#home","/home");
     navbuttons('#feedback',"Feedback.php");
     navbuttons('#campaigns',"Campaigns.php");

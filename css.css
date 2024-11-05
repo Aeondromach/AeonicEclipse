@@ -45,8 +45,19 @@ title {
     display: none;
 }
 
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    height: 100%;
+}
+
 body {
+    min-height: 100%;
     font-size: 16px;
+    background-color: #0d0d0d;
 }
 
 header {
@@ -102,13 +113,41 @@ header {
 }
 
 main {
-    background-color: #333333;
+    background-color: #212121;
     width: 1200px;
     padding-top: 65px;
     margin: 0 auto;
 }
 
 #contact {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: aliceblue;
+}
+
+footer {
+    bottom: 0;
+    width: 100vw;
+    position: absolute;
+    height: 50px;
+    background-color: #131313;
+}
+
+#footerContent {
+    margin: 0 auto;
+    width: 1200px;
+    display: grid;
+    align-items: center;
+    height: 100%;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#footerName {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2rem;
+    color: aliceblue;
+    grid-column: 2;
+    text-align: center;
 }
