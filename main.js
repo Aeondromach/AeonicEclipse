@@ -5,8 +5,8 @@ $(document).ready(function() {
     navbuttons('.blog',"/blogs");
     navbuttons('.resume',"/resume");
     navbuttons('.contact',"/contact");
-    navbuttons('.git','https://github.com/aeondromach');
-    navbuttons('.linked','/error')
+    navblankbuttons('.git','https://github.com/aeondromach');
+    navblankbuttons('.linked','/error')
 });
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -45,6 +45,14 @@ function navbuttons(take, give) {
     if ($(take).length > 0) {
         $(take).on("click", function() {
             location.href = give;
+        });
+    }
+}
+
+function navblankbuttons(take, give) {
+    if ($(take).length > 0) {
+        $(take).on("click", function() {
+            window.open(give, "_blank");
         });
     }
 }
