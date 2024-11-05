@@ -61,7 +61,7 @@ header {
     display: grid;
     align-items: center;
     height: 100%;
-    grid-template-columns: 65px 1fr 4fr;
+    grid-template-columns: 1fr 4fr;
 }
 
 #title {
@@ -91,13 +91,22 @@ header {
     transition: opacity ease 1s;
 }
 
-#logo {
-    width: 65px;
-    height: 65px;
-}
-
 #logoImg {
     margin: 12.5px 12.5px;
     height: 40px;
     width: 40px;
+}
+
+main {
+    background-color: #333333;
+    width: 1200px;
+    padding-top: 65px;
+    margin: 0 auto;
+}
+
+#contact {
+    height: 40px;
+    width: 40px;
+    color: aliceblue;
+    font-size: 18px;
 }
