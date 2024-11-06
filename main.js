@@ -8,7 +8,7 @@ $(document).ready(function() {
     navbuttons('.resume',"/resume");
     navbuttons('.contact',"/contact");
     navblankbuttons('.git','https://github.com/aeondromach');
-    navblankbuttons('.linked','www.linkedin.com/in/aeondromach')
+    navblankbuttons('.linked','https://www.linkedin.com/in/aeondromach')
 });
 
 document.addEventListener("DOMContentLoaded", function() {
