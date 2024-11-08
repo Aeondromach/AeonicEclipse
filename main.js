@@ -3,10 +3,8 @@
 $(document).ready(function() {
     navbuttons(".about","/about");
     navbuttons('.project',"/project");
-    navbuttons('.skills',"/skills");
-    navbuttons('.blog',"/blogs");
-    navbuttons('.resume',"/resume");
     navbuttons('.contact',"/contact");
+    navblankbuttons('.dromach', 'https://aeondromach.com')
     navblankbuttons('.git','https://github.com/aeondromach');
     navblankbuttons('.linked','https://www.linkedin.com/in/aeondromach')
 });

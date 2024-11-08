@@ -54,6 +54,11 @@ html{
     height: 100%;
 }
 
+#logo {
+    aspect-ratio: 1/1;
+    height: 1.1rem;
+}
+
 body {
     min-height: 100%;
     font-size: 16px;
@@ -83,7 +88,7 @@ header {
     display: grid;
     align-items: center;
     height: 100%;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 4fr 1fr;
 }
 
 #title {
@@ -148,7 +153,7 @@ header {
     opacity: 1;
 }
 
-#footerLinks {
+.iconLinks {
     display: flex;
     justify-content: space-evenly;
     font-size: 1.5rem;
@@ -179,15 +184,7 @@ main {
     padding: 0 auto;
     grid-column: 1;
     width: auto;
-    height: 600px;
-    top: 65px;
-    position: sticky;
-}
-
-#sideBarRight {
-    grid-column: 3;
-    width: auto;
-    height: 600px;
+    height: 100%;
     top: 65px;
     position: sticky;
 }
@@ -237,7 +234,15 @@ footer {
     text-decoration: none; 
 }
 
-#contentsHead {
+.dromach {
+    background-image: url('images/Aeondromach.svg');
+    background-repeat: no-repeat;
+    font-size: 1.5rem;
+    aspect-ratio: 1/1;
+    width: 18px;
+}
+
+.contentsHead {
     padding-top: 15px;
     color: aliceblue;
     font-size: 1.5rem;
